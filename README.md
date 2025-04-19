@@ -1,16 +1,16 @@
-## Hi there 👋
+## 👋 About Me
 
-<!--
-**simon-bouchard/simon-bouchard** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a recent business school graduate, where I specialized in information technology.  
+I'm particularly interested in backend development and machine learning, and I work primarily with Python.
 
-Here are some ideas to get you started:
+I’m currently learning more about modern ML workflows, infrastructure design, and production-ready API development.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Tech Stack
+
+**Languages**: Python, SQL, Bash, HTML/CSS, JavaScript, C#, VBA  
+**Frameworks & Libraries**: FastAPI, Node.js, pandas, Mongoose  
+**Databases**: MongoDB, MySQL  
+**Machine Learning Frameworks**: PyTorch (primary), TensorFlow, scikit-learn  
+**Tools & Dev Environment**: Docker, Git, Visual Studio Code, WSL (Ubuntu), tmux, vim  
+**Markup & Config**: YAML, JSON, Dockerfiles  
+**Other Experience**: Jupyter notebooks, Virtual machines (local & cloud)
