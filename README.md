@@ -1,6 +1,6 @@
 ## 👋 About Me
 
-I'm a recent business school graduate, where I specialized in information technology.  
+I'm a recent business school undergraduate, where I specialized in information technology.  
 I'm particularly interested in backend development and machine learning, and I work primarily with Python.
 
 I’m currently learning more about modern ML workflows, infrastructure design, and production-ready API development.
