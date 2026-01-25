@@ -1,4 +1,4 @@
-## 👋 About Me
+## About Me
 
 I'm a recent business school undergraduate, where I specialized in information technology.  
 I'm particularly interested in backend development and machine learning, and I work primarily with Python.
@@ -6,7 +6,7 @@ I'm particularly interested in backend development and machine learning, and I w
 I’m currently learning more about modern ML workflows, infrastructure design, and production-ready API development.
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Languages**: Python, SQL, Bash, HTML/CSS, JavaScript, C#, VBA  
 **Frameworks & Libraries**: FastAPI, Node.js, pandas, Mongoose  
@@ -17,7 +17,7 @@ I’m currently learning more about modern ML workflows, infrastructure design, 
 **Other Experience**: Jupyter notebooks, Virtual machines (local & cloud)
 
 
-## 📂 Projects
+## Projects
 
 - 📚 [**Book Recommendation System**](https://github.com/simon-bouchard/Book_Recommendation_UI_with_FastAPI)  
   Built a FastAPI-based backend combining collaborative filtering (using embeddings and metadata) with a KNN model on the embeddings. Designed to handle real user-book interactions and deliver personalized recommendations.
@@ -29,7 +29,7 @@ I’m currently learning more about modern ML workflows, infrastructure design, 
   Developed a simple real-time multiplayer game using Node.js and WebSockets. Focused on live state synchronization, session management, and secure communication between players.
 
 
-## 📚 Currently Learning
+##  Currently Learning
 
 - Fast.ai (Part 2): Advanced deep learning techniques and model deployment  
 - Best practices for scalable API design with FastAPI  
@@ -37,7 +37,7 @@ I’m currently learning more about modern ML workflows, infrastructure design, 
 - C#: Exploring its use in AI development and cloud-integrated applications
 
 
-## 🎓 Certifications & Courses
+## Certifications & Courses
 
 - AI for Everyone – Andrew Ng (Coursera)  
 - FreeCodeCamp Certifications:  
