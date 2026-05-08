@@ -1,55 +1,61 @@
-## About Me
+# About Me
 
-I'm a recent business school undergraduate, where I specialized in information technology.  
-I'm particularly interested in backend development and machine learning, and I work primarily with Python.
+I'm a recent business school graduate (BAA, HEC Montreal) with a specialization in information technology, focused on machine learning engineering and backend development. I work primarily in Python and have built production ML systems covering recommendation engines, agentic AI, and computer vision inference pipelines.
 
-I’m currently learning more about modern ML workflows, infrastructure design, and production-ready API development.
+I'm currently deepening my experience in ML infrastructure, model serving, and production-grade API design.
 
+---
 
 ## Tech Stack
 
-**Languages**: Python, SQL, Bash, HTML/CSS, JavaScript, C#, VBA  
-**Frameworks & Libraries**: FastAPI, Node.js, pandas, Mongoose  
-**Databases**: MongoDB, MySQL  
-**Machine Learning Frameworks**: PyTorch (primary), TensorFlow, scikit-learn  
-**Tools & Dev Environment**: Docker, Git, Visual Studio Code, WSL (Ubuntu), tmux, vim  
-**Markup & Config**: YAML, JSON, Dockerfiles  
-**Other Experience**: Jupyter notebooks, Virtual machines (local & cloud)
+**Languages:** Python, SQL, Bash, JavaScript, TypeScript, 
 
+**Frameworks and Libraries:** FastAPI, PyTorch, scikit-learn, LangGraph, pandas, NumPy
+
+**Machine Learning:** Collaborative filtering (ALS), attention-pooled embeddings, RAG systems, FAISS/HNSW indexing, semantic search, model serving
+
+**Data Engineering:** Kafka, Spark, MySQL, MongoDB, Redis, ETL/ELT pipelines, Parquet
+
+**Cloud and Infrastructure:** AWS (SageMaker, S3, EC2), Docker, Nginx, CI/CD (GitHub Actions), Linux/Bash
+
+**Observability:** Prometheus, Grafana, OpenTelemetry, Jaeger
+
+**Tools:** Git, Visual Studio Code, WSL (Ubuntu), tmux, neovim, Jupyter
+
+---
 
 ## Projects
 
-- 📚 [**Book Recommendation System**](https://github.com/simon-bouchard/Book_Recommendation_UI_with_FastAPI)  
-  Built a FastAPI-based backend combining collaborative filtering (using embeddings and metadata) with a KNN model on the embeddings. Designed to handle real user-book interactions and deliver personalized recommendations.
+**Book Recommendation System** | [recsys.simonbouchard.space](https://recsys.simonbouchard.space)
 
-- 🌐 [**Missing Semester Solutions Website**](https://github.com/simon-bouchard/Missing-Semester-Solutions)  
-  Created a PHP-based website hosted with Apache to share organized notes and solutions for *The Missing Semester* course. Deployed on Oracle Cloud with DNS and HTTPS configured.
+Production ML platform built on approximately 250,000 books. Features a dual-factor recommendation engine combining ALS collaborative filtering with custom attention-pooled subject embeddings trained with a dual regression and contrastive loss. Includes a multi-agent LangGraph chatbot with semantic search (FAISS HNSW), RAG, user personalization, and web search. Automated daily retraining pipeline with a quality gate, zero-downtime hot-reload across 5 model microservices, and full observability with Prometheus, Grafana, and Jaeger distributed tracing.
 
-- 🎮 [**Secure Real-Time Multiplayer Game**](https://github.com/simon-bouchard/freecodecamp-project-secure-real-time-multiplayer-game)  
-  Developed a simple real-time multiplayer game using Node.js and WebSockets. Focused on live state synchronization, session management, and secure communication between players.
+[GitHub](https://github.com/simon-bouchard/book-recommendation-platform)
 
+**CV Inference with NVIDIA Triton**
 
-##  Currently Learning
+Portfolio project focused on deploying computer vision models with NVIDIA Triton Inference Server. Covers model optimization (ONNX to TensorRT FP16), ensemble pipelines, and a custom C++ preprocessing backend. Each experiment identifies a bottleneck, addresses it, and documents the result with real benchmark numbers. Achieved 34% throughput improvement and 30% latency reduction over the baseline ONNX pipeline by eliminating Python GIL overhead and maximizing GPU utilization.
 
-- Fast.ai (Part 2): Advanced deep learning techniques and model deployment  
-- Best practices for scalable API design with FastAPI  
-- Workflow improvements for reproducibility, versioning, and monitoring in ML pipelines  
-- C#: Exploring its use in AI development and cloud-integrated applications
+[GitHub](https://github.com/simon-bouchard/cv-inference-triton)
 
+**Missing Semester Solutions Website**
 
-## Certifications & Courses
+PHP-based website hosted with Apache to share organized notes and solutions for The Missing Semester course. Deployed on Oracle Cloud with DNS and HTTPS configured.
 
-- AI for Everyone – Andrew Ng (Coursera)  
-- FreeCodeCamp Certifications:  
-  • Back End Development and APIs  
-  • Quality Assurance  
-  • Scientific Computing with Python  
-  • Data Analysis with Python  
-  • Information Security  
-  • Machine Learning with Python  
-  • College Algebra with Python  
-- Intro to Deep Learning – MIT  
-- The Missing Semester of Your CS Education – MIT  
-- Fast.ai – Practical Deep Learning for Coders, Part 1  
-- Fast.ai – Part 2 (in progress)  
-- C# for AI and Cloud Workflows (in progress)
+[GitHub](https://github.com/simon-bouchard/Missing-Semester-Solutions)
+
+---
+
+## Certifications
+
+**AWS Certified Generative AI Developer Professional (AIP-C01)** | Early Adopter (First 5,000 globally) | Jan 2026
+
+**AWS Certified Machine Learning Specialty (MLS-C01)** | Score: 890/1000 | Jan 2026
+
+**Advanced Machine Learning:** MIT Introduction to Deep Learning, fast.ai Practical Deep Learning for Coders (Parts 1 and 2)
+
+**AI and Generative AI:** DeepLearning.AI -- AI for Everyone, Generative AI for Everyone, Agentic AI
+
+**Software Engineering:** MIT The Missing Semester of Your CS Education
+
+**Backend Development:** FreeCodeCamp (Backend APIs, Quality Assurance, Information Security, Scientific Computing, Data Analysis, Machine Learning with Python)
