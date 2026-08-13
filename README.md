@@ -8,13 +8,13 @@ I'm currently deepening my experience in ML infrastructure, model serving, and p
 
 ## Tech Stack
 
-**Languages:** Python, SQL, Bash, JavaScript, TypeScript, 
+**Languages:** Python, C++, Typescript
 
-**Frameworks and Libraries:** FastAPI, PyTorch, scikit-learn, LangGraph, pandas, NumPy
+**Frameworks and Libraries:** FastAPI, PyTorch, scikit-learn, LangChain, LangGraph, pandas, NumPy
 
 **Machine Learning:** Collaborative filtering (ALS), attention-pooled embeddings, RAG systems, FAISS/HNSW indexing, semantic search, model serving
 
-**Data Engineering:** Kafka, Spark, MySQL, MongoDB, Redis, ETL/ELT pipelines, Parquet
+**Data Engineering:** Kafka, Spark, SQL, Redis, ETL/ELT pipelines
 
 **Cloud and Infrastructure:** AWS (SageMaker, S3, EC2), Docker, Nginx, CI/CD (GitHub Actions), Linux/Bash
 
