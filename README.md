@@ -26,7 +26,7 @@ I'm currently deepening my experience in ML infrastructure, model serving, and p
 
 ## Projects
 
-**Book Recommendation System** | [recsys.simonbouchard.space](https://recsys.simonbouchard.space)
+**Book Recommendation System** | [recsys.simon-bouchard.com](https://recsys.simon-bouchard.com)
 
 Production ML platform built on approximately 250,000 books. Features a dual-factor recommendation engine combining ALS collaborative filtering with custom attention-pooled subject embeddings trained with a dual regression and contrastive loss. Includes a multi-agent LangGraph chatbot with semantic search (FAISS HNSW), RAG, user personalization, and web search. Automated daily retraining pipeline with a quality gate, zero-downtime hot-reload across 5 model microservices, and full observability with Prometheus, Grafana, and Jaeger distributed tracing.
 
