@@ -38,7 +38,7 @@ Deploying computer vision models with NVIDIA Triton Inference Server. Covers mod
 
 **AI Framework Tracker** | [GitHub](https://github.com/simon-bouchard/ai-researcher)
 
-An agentic pipeline built with the Claude Agent SDK and Airflow that continuously scrapes emerging AI agent frameworks and compiles them into a queryable, interlinked knowledge base, so coding agents past their training cutoff can stay aware of what exists. The LLM only makes semantic scope judgments while Python handles search and filtering, and change detection plus a rejection cache ensure no repo is fetched or judged twice.
+An agentic pipeline built with Hermes and Airflow that continuously scrapes emerging AI agent frameworks and compiles them into a queryable, interlinked knowledge base, so coding agents past their training cutoff can stay aware of what exists. The LLM only makes semantic scope judgments while Python handles search and filtering, and change detection plus a rejection cache ensure no repo is fetched or judged twice.
 
 **Quebec Region Classifier** | [GitHub](https://github.com/simon-bouchard/geo-classifier-quebec)
 
